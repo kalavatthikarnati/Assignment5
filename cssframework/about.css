@@ -38,7 +38,7 @@ font-size: 4rem;
     margin-top: 10%;
     margin-left: 10%;
 }
-.itsme .btn{
+.btn{
     display: inline-block;
     background: linear-gradient(45deg,#87adfe,#ff77cd);
     border-radius: 6px;
@@ -55,4 +55,31 @@ font-size: 4rem;
     position: absolute;
     bottom: 0;
     right: 180px;
+}
+.img-fluid{
+    width: 500px;
+    height: 800px;
+    border: #fff;
+    margin: 3px;
+    border-radius: 4px;
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.ffe{
+    font-style: italic;
+    font-size: 2rem;
+}
+.endf{
+    background-color: #ff8400;
+    height: 70px;
+    margin-left: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-size: 25px;
+}
+.endf h6{
+font-size: 25px;
 }
