@@ -1,50 +1,69 @@
-    .navbar{
-               font-size: 20px;
-               
-
-    }
-    .navbar-brand{
-        font-size: 20px;
-          }
-    .navbar{
-        background-color: brown;
-        text-decoration: white;
-    }  
-    .nav-link:hover{
-        background:  #ffd70f;
-        border-radius: 7px;
+.navbar-brand{
     
+    font-size: 5rem;
+    
+}
+.navbar{
+    background-color: brown;
+    text-decoration-color: white;
+    text-size-adjust: 10px;
+    
+}
+.nav-link:hover{
+    background:  #ffd70f;
+    border-radius: 7px;
+
+}
+.items{
+    font-size: 3rem;
+    margin-: auto;
+}
+/*this line is navbar.*/
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #00ffa2;
     }
-        
-    .items{
-        
-        font-size: 4rem;
-    }
-    html,body{
+    .banner {
+        position: relative;
+        background: url('/groupimg1/nature2.jpg') no-repeat center;
+        background-size: cover;
         height: 80%;
-        margin: 0;
-        padding: 0;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background: #00ffa2;
-        }
-        .container::before {
-            content: '';
-            position: absolute;
-            background: url('flower1.jpg')
-             no-repeat center;
-            background-size: cover;
-            height: 100%;
-            width: 100$;
-            overflow: hidden;
-            top: 7rem;
-            left: 0;        
-            
-        }
-        .container h1{
-            text-align: center;
-        }
-        .container h2{
-            text-align: center;
-            font-size: 2rem;
-        }
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        /*opacity: 0.2;*/
+} 
+    
+    .banner h1{
+        text-align: center;
+    }
+    .banner h2{
+        text-align: center;
+        font-size: 2rem;
+    }/*
+    .container{
+        
+        background: url('/groupimg1/flower1.jpg') no-repeat center;
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+    }*/
+    .endf{
+        background-color: #ff8400;
+        height: 70px;
+        margin-left: 20px;
+        font-size: 1rem;
+        text-align: center;
+        font-size: 25px;
+    }
+    .endf h6{
+    font-size: 25px;
+    }
     
